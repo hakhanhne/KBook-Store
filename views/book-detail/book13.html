@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../../assets/favicon/logo.png" type="image/png" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Book detail</title>
+  <style>
+    .price-cart {display: flex; flex-direction: column; gap: 10px;}
+    .price {font-size: 20px; font-weight: bold;}
+    .book-detail {
+      display: flex; 
+      flex-direction: column; 
+      gap: 10px; 
+      margin: 20px 50px;
+    }
+
+    .book-detail .top {display: flex;}
+
+    .img-gallery {
+      display: flex; 
+      gap: 10px; 
+      height: 300px;
+    }
+    .img-gallery .left {width: 60%; height: 100%;}
+    .img-gallery .right {width: 25%; display: flex; flex-direction: column; gap: 10px; height: 100%;}
+    .img-gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit:scale-down;
+    }
+
+    .img-gallery img:hover {outline: 2px solid;}
+
+    .navigation > * {display: inline-block; padding-right: 5px;}
+    .navigation a {text-decoration: none; }
+    .navigation a:hover {text-decoration: underline;}
+
+
+    .navigation i {font-size: 10px; }
+    
+    /* CSS */
+    .cart-btn {
+      background: linear-gradient(-10deg, rgba(218,210,205,1) 3%, rgba(187,169,156,1) 27%, rgba(122,100,84,1) 80%);
+      border: 0; 
+      border-radius: 20px;
+      color: #fff;
+      font-weight: bold;
+      padding: 15px 0;
+      width: 150px;
+      text-align: center;
+      transition: all .25s;
+    }
+
+    .cart-btn:hover {
+      box-shadow: rgba(107, 75, 75, .2) 0 3px 5px, rgba(0, 0, 0, .2) 0 3px 5px, rgba(0, 0, 0, .1) 5px 5px 5px;
+      transform: scale(1.05);
+    }
+
+    .btn-content {display: flex; gap: 10px; justify-content: center;}
+
+  </style>
+</head>
+
+<body>
+  <div class="header theme1">
+    <div class="left flex-row">
+      <img class="app-logo" src="../../assets/favicon/logo.png" alt="App logo">
+      <div class="app-name">KBook Store</div>
+    </div>
+    <div class="right nav-wrapper">
+      <div class="hamburger">☰</div>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="../main/home.html">Home</a></li>
+          <li><a class="nav-link" href="../category/thriller.html">Thriller</a></li>
+          <li><a class="nav-link" href="../category/fiction.html">Fiction</a></li>
+          <li><a class="nav-link" href="../info/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="navigation">
+      <a href="../main/home.html">Home</a><i class="fas fa-chevron-right"></i>
+      <a href="../category/fiction.html">Fiction & Fantasy</a> <i class="fas fa-chevron-right"></i>
+      <a href="">A Game of Thrones</a>
+    </div>
+    <div class="book-detail">
+      <div class="top">
+        <div class="img-gallery">
+          <div class="left">
+            <img alt="book image" src="https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg">
+          </div>
+          <div class="right">
+            <img alt="book image" src="https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg">
+            <img alt="book image" src="https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg">
+          </div>
+        </div>
+        <div class="price-cart">
+          <h3 class="price mid-font">Price: $50.00</h3>
+          <button class="cart-btn cart-btn">
+            <div class="btn-content">
+              <i class="fas fa-shopping-cart"></i>
+              Add to cart
+            </div>
+            
+          </button>
+        </div>
+      </div>
+      <div class="bottom">
+        <h2 class="big-font book-title">A Game of Thrones</h2>
+        <p>book description</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer theme2">
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="../info/about.html">About Us</a></li>
+        <li><a class="nav-link" href="../info//privacy.html">Privacy Policy</a></li>
+        <li><a class="nav-link" href="../info/terms.html">Terms</a></li>
+        <li><a class="nav-link" href="../info//copyright.html">Copyright</a></li>
+        <li><a class="nav-link" href="../info/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p class="copyright">Copyright © 2023 KBook Store</p>
+  </div>
+</body>
+
+</html>

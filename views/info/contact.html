@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../../assets/favicon/logo.png" type="image/png" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Contact Us</title>
+  <style>
+    .container-center {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .form-container {
+      width: 70%;
+    }
+
+    form#contact-form {display: flex; flex-direction: column; gap: 10px;}
+
+  </style>
+</head>
+
+<body>
+  <div class="header theme1">
+    <div class="left flex-row">
+      <img class="app-logo" src="../../assets/favicon/logo.png" alt="App logo">
+      <div class="app-name">KBook Store</div>
+    </div>
+    <div class="right nav-wrapper">
+      <div class="hamburger">☰</div>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="../main/home.html">Home</a></li>
+          <li><a class="nav-link" href="../category/thriller.html">Thriller</a></li>
+          <li><a class="nav-link" href="../category/fiction.html">Fiction</a></li>
+          <li><a class="nav-link" href="../info/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="container-center">
+      <div class="form-container">
+        <center>
+          <h2 class="big-font">Contact Us</h2>
+        </center>
+        <form id="contact-form">
+          <div class="form-row">
+            <div class="flex-col">
+              <label class="form-label" for="name">Name</label>
+              <input type="text" required name="name" placeholder="Your name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="flex-col">
+              <label class="form-label" for="phone">Phone number</label>
+              <input type="text" required name="phone" placeholder="Your phone number">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="flex-col">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" required name="email" placeholder="Your email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="flex-col">
+              <label class="form-label" for="purpose">Choose purpose</label>
+              <select id="purpose" name="purpose" required>
+                <option disabled>-- Choose --</option>
+                <option value="sell">I want to sell books</option>
+                <option value="buy">I want to buy books</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="flex-col">
+              <fieldset>
+                <label class="form-label">Contact prference</label>
+                <div class="checkbox-option">
+                  <input type="checkbox" id="contact-email" name="contact-email">
+                  <label for="contact-email">By email</label>
+                </div>
+                <div class="checkbox-option">
+                  <input type="checkbox" id="contact-phone" name="contact-phone">
+                  <label for="contact-phonne">By phone</label>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="flex-col">
+              <fieldset>
+                <label class="form-label">Receive weekly newsletter</label>
+                <div class="checkbox-option">
+                  <input type="radio" id="weekly-news-yes" name="weekly-news" checked>
+                  <label for="weekly-news-yes">Yes</label>
+                </div>
+                <div class="checkbox-option">
+                  <input type="radio" id="weekly-news-no" name="weekly-news">
+                  <label for="weekly-news-no">No</label>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="flex-col">
+              <label for="note">Extra notes</label>
+              <textarea id="note" placeholder="Any notes"></textarea>
+            </div>
+          </div>
+          <div class="form-row">
+            <input type="submit" class="form-btn" id="submit-btn" value="Submit">
+            <input type="reset" class="form-btn" id="reset-btn" value="Reset">  
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer theme2">
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="../info/about.html">About Us</a></li>
+        <li><a class="nav-link" href="../info//privacy.html">Privacy Policy</a></li>
+        <li><a class="nav-link" href="../info/terms.html">Terms</a></li>
+        <li><a class="nav-link" href="../info//copyright.html">Copyright</a></li>
+        <li><a class="nav-link" href="../info/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p class="copyright">Copyright © 2023 KBook Store</p>
+  </div>
+</body>
+
+</html>
