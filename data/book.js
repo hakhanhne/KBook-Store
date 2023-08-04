@@ -207,18 +207,5 @@ const books = [
     cover:"https://upload.wikimedia.org/wikipedia/en/0/01/The_Fifth_Season_%28novel%29.jpg",
     photos: []
   },
-  {
-    id:15,
-    title:"",
-    author:"",
-    published_year:"",
-    description:
-    `
-    
-    `,
-    price:50,
-    cover:"",
-    photos: []
-  },
 ]
 
