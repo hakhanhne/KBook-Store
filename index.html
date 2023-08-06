@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="../../assets/favicon/logo.png" type="image/png" />
-  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="icon" href="./assets/favicon/logo.png" type="image/png" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <title>Home Page</title>
@@ -15,7 +15,7 @@
 <body>
   <div class="header theme1">
     <div class="left flex-row">
-      <img class="app-logo" src="../../assets/favicon/logo.png" alt="App logo">
+      <img class="app-logo" src="./assets/favicon/logo.png" alt="App logo">
       <div class="app-name">KBook Store</div>
     </div>
     <div class="right">
@@ -23,9 +23,9 @@
       <nav>
         <ul>
           <li><a class="nav-link" href="./index.html">Home</a></li>
-          <li><a class="nav-link" href="./category/thriller.html">Thriller</a></li>
-          <li><a class="nav-link" href="./category/fiction.html">Fiction</a></li>
-          <li><a class="nav-link" href="./info/contact.html">Contact</a></li>
+          <li><a class="nav-link" href="./views/category/thriller.html">Thriller</a></li>
+          <li><a class="nav-link" href="./views/category/fiction.html">Fiction</a></li>
+          <li><a class="nav-link" href="./views/info/contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -37,7 +37,7 @@
         <div class="welcome-text">Welcome to KBook Strore</div>
         <p>A new adventure every day</p>
       </div>
-      <button class="contact-btn" onclick="window.location.href=`../info/contact.html`">Contact Us</button>
+      <button class="contact-btn" onclick="window.location.href=`./views/info/contact.html`">Contact Us</button>
     </div>
   </div>
 
@@ -47,13 +47,13 @@
       <div class="category-wrapper">
         <div class="category-header">
           <h2 class="big-font">Mystery, Thriller & Horror</h2>
-          <a href="../category/thriller.html">
+          <a href="./views/category/thriller.html">
             <i class="fas fa-angle-double-right"> more</i>
           </a>
         </div>
         <div class="category-content">
           <div class="category-item">
-            <div class="bookcard" id="5" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="5" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img alt="Book cover" src="https://upload.wikimedia.org/wikipedia/en/6/62/Silence3.png">
               </div>
@@ -65,7 +65,7 @@
           </div>
           
           <div class="category-item">
-            <div class="bookcard" id="3" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="3" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img alt="Book cover" src="https://www.bookgeeks.in/wp-content/uploads/2017/03/The-Girl-On-The-Train-by-Paula-Hawkins-1200x1859.jpg">
               </div>
@@ -77,7 +77,7 @@
           </div>
 
           <div class="category-item">
-            <div class="bookcard" id="2" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="2" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img alt="Book cover" src="https://upload.wikimedia.org/wikipedia/commons/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg                  ">
               </div>
@@ -89,7 +89,7 @@
           </div>
 
           <div class="category-item">
-            <div class="bookcard" id="7" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="7" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img alt="Book cover" src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/04/It-Clown.jpg">
               </div>
@@ -106,13 +106,13 @@
       <div class="category-wrapper">
         <div class="category-header">
           <h2 class="big-font">Fiction & Fantasy</h2>
-          <a href="../category/thriller.html">
+          <a href="./views/category/thriller.html">
             <i class="fas fa-angle-double-right">  more</i>
           </a>
         </div>
         <div class="category-content">
           <div class="category-item">
-            <div class="bookcard" id="9" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="9" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img  alt="Book cover" src="https://m.media-amazon.com/images/I/81z7E0uWdtL._AC_UF1000,1000_QL80_.jpg">
               </div>
@@ -124,7 +124,7 @@
           </div>
           
           <div class="category-item">
-            <div class="bookcard" id="10" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="10" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img alt="Book cover" src="https://1.bp.blogspot.com/-lAV-ZpWEO-U/YBZBB7yyJxI/AAAAAAAADnw/MBPlt49oZBEwMbZhhHYbf7HZ3yJKfiFjQCNcBGAsYHQ/s0/Schwinger.jpg">
               </div>
@@ -136,7 +136,7 @@
           </div>
 
           <div class="category-item">
-            <div class="bookcard" id="13" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="13" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img alt="Book cover" src="https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg">
               </div>
@@ -148,7 +148,7 @@
           </div>
 
           <div class="category-item">
-            <div class="bookcard" id="14" onclick="window.location.href=`../book-detail/book${this.id}.html`">
+            <div class="bookcard" id="14" onclick="window.location.href=`./views/book-detail/book${this.id}.html`">
               <div class="card-cover">
                 <img alt="Book cover" src="https://upload.wikimedia.org/wikipedia/en/0/01/The_Fifth_Season_%28novel%29.jpg">
               </div>
@@ -166,11 +166,11 @@
   <div class="footer theme2">
     <nav>
       <ul>
-        <li><a class="nav-link" href="./info/about.html">About Us</a></li>
-        <li><a class="nav-link" href="./info/privacy.html">Privacy Policy</a></li>
-        <li><a class="nav-link" href="./info/terms.html">Terms</a></li>
-        <li><a class="nav-link" href="./info/copyright.html">Copyright</a></li>
-        <li><a class="nav-link" href="./info/contact.html">Contact Us</a></li>
+        <li><a class="nav-link" href="./views/info/about.html">About Us</a></li>
+        <li><a class="nav-link" href="./views/info/privacy.html">Privacy Policy</a></li>
+        <li><a class="nav-link" href="./views/info/terms.html">Terms</a></li>
+        <li><a class="nav-link" href="./views/info/copyright.html">Copyright</a></li>
+        <li><a class="nav-link" href="./views/info/contact.html">Contact Us</a></li>
       </ul>
     </nav>
     <p class="copyright">Copyright © 2023 KBook Store.</p>
