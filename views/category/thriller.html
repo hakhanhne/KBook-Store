@@ -17,7 +17,7 @@
   </style>
 </head>
 
-<body>
+<body class="colored-background">
   <div class="header theme1">
     <div class="left flex-row">
       <img class="app-logo" src="../../assets/favicon/logo.png" alt="App logo">
@@ -58,8 +58,11 @@
                 <img  alt="Book cover" src="https://cdn-amz.woka.io/images/I/71FZo7-3BnL.jpg">
               </div>
               <div class="card-info">
-                <div class="title">Gone Girl</div>
-                <div class="author">Gillian Flynn, 2012</div>
+                <div class="left">
+                  <div class="title">Gone Girl</div>
+                  <div class="author">Gillian Flynn, 2012</div>
+                </div>
+                <div class="right price">$12.90</div>
               </div>
             </div>
           </div>
@@ -70,8 +73,11 @@
                 <img alt="Book cover" src="https://upload.wikimedia.org/wikipedia/commons/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg                  ">
               </div>
               <div class="card-info">
-                <div class="title">The Shining</div>
-                <div class="author">Stephen King, 1977</div>
+                <div class="left">
+                  <div class="title">The Shining</div>
+                  <div class="author">Stephen King, 1977</div>
+                </div>
+                <div class="right price">$14.89</div>
               </div>
             </div>
           </div>
@@ -82,8 +88,11 @@
                 <img alt="Book cover" src="https://www.bookgeeks.in/wp-content/uploads/2017/03/The-Girl-On-The-Train-by-Paula-Hawkins-1200x1859.jpg">
               </div>
               <div class="card-info">
-                <div class="title">The Girl on the Train</div>
-                <div class="author">Paula Hawkins, 2015</div>
+                <div class="left">
+                  <div class="title">The Girl on the Train</div>
+                  <div class="author">Paula Hawkins, 2015</div>
+                </div>
+                <div class="right price">$13.21</div>
               </div>
             </div>
           </div>
@@ -101,8 +110,11 @@
                 <img  alt="Book cover" src="https://m.media-amazon.com/images/I/81dkf1dFePL._AC_UF1000,1000_QL80_.jpg">
               </div>
               <div class="card-info">
-                <div class="title">Red Dragon</div>
-                <div class="author">Thomas Harris, 1981</div>
+                <div class="left">
+                  <div class="title">Red Dragon</div>
+                  <div class="author">Thomas Harris, 1981</div>
+                </div>
+                <div class="right price">$11.23</div>
               </div>
             </div>
           </div>
@@ -113,8 +125,11 @@
                 <img alt="Book cover" src="https://upload.wikimedia.org/wikipedia/en/6/62/Silence3.png">
               </div>
               <div class="card-info">
-                <div class="title">The Silence of the Lambs</div>
-                <div class="author">Thomas Harris, 1988</div>
+                <div class="left">
+                  <div class="title">The Silence of the Lambs</div>
+                  <div class="author">Thomas Harris, 1988</div>
+                </div>
+                <div class="right price">$19.98</div>
               </div>
             </div>
           </div>
@@ -125,8 +140,11 @@
                 <img alt="Book cover" src="https://m.media-amazon.com/images/I/81xni8WlLhL._AC_UF1000,1000_QL80_.jpg">
               </div>
               <div class="card-info">
-                <div class="title">Zodiac</div>
-                <div class="author">Robert Graysmith, 1986</div>
+                <div class="left">
+                  <div class="title">Zodiac</div>
+                  <div class="author">Robert Graysmith, 1986</div>
+                </div>
+                <div class="right price">$13.32</div>
               </div>
             </div>
           </div>
@@ -144,8 +162,11 @@
                 <img alt="Book cover" src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/04/It-Clown.jpg">
               </div>
               <div class="card-info">
-                <div class="title">It</div>
-                <div class="author">Stephen King, 1986</div>
+                <div class="left">
+                  <div class="title">It</div>
+                  <div class="author">Stephen King, 1986</div>
+                </div>
+                <div class="right price">$11.32</div>
               </div>
             </div>
           </div>
@@ -156,8 +177,11 @@
                 <img alt="Book cover" src="https://static.wikia.nocookie.net/stephenking/images/0/01/The_Outsider_cover.jpg">
               </div>
               <div class="card-info">
-                <div class="title">The Ousider</div>
-                <div class="author">Stephen King, 2018</div>
+                <div class="left">
+                  <div class="title">The Ousider</div>
+                  <div class="author">Stephen King, 2018</div>
+                </div>
+                <div class="right price">$12.41</div>
               </div>
             </div>
           </div>
@@ -176,8 +200,15 @@
         <li><a class="nav-link" href="../info/contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    <p class="copyright">Copyright © 2023 KBook Store</p>
+    <p class="copyright">Copyright © 2023 KBook Store by Khanh Tran</p>
   </div>
-</body>
 
+  <script  type="text/javascript">
+    function book_clicked(id) {
+      localStorage.setItem("bookid", id)
+      console.log(id)
+      window.location.href=`./views/book-detail/book.html`;
+    }
+  </script>
+</body>
 </html>

@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="../../assets/css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <title>Contact Us</title>
 </head>
 
-<body>
+<body class="colored-background">
   <div class="header theme1">
     <div class="left flex-row">
       <img class="app-logo" src="../../assets/favicon/logo.png" alt="App logo">
@@ -32,13 +32,23 @@
     </div>
   </div>
 
-  <div class="main">
-    <div class="main-container">
+  <div class="main contact-page">
+      <img id="contact-img" alt="image cover" src="../../assets/picture/contact.svg">
       <div class="form-container">
         <center>
-          <h2 class="form-name">Contact Us</h2>
+          <p class="form-name">Contact Us</p>
         </center>
         <form id="contact-form" method="post" target="_blank" action="https://www.w3schools.com/action_page.php">
+          <div class="form-row">
+            <div class="label-input">
+              <label class="form-label" for="purpose">Choose purpose *</label>
+              <select id="purpose" name="purpose" required>
+                <option disabled>-- Choose --</option>
+                <option value="sell">I want to sell books</option>
+                <option value="buy">I want to buy books</option>
+              </select>
+            </div>
+          </div>
           <div class="form-row">
             <div class="label-input">
               <label class="form-label" for="name">Name *</label>
@@ -59,50 +69,35 @@
           </div>
           <div class="form-row">
             <div class="label-input">
-              <label class="form-label" for="purpose">Choose purpose *</label>
-              <select id="purpose" name="purpose" required>
-                <option disabled>-- Choose --</option>
-                <option value="sell">I want to sell books</option>
-                <option value="buy">I want to buy books</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="flex-col">
-              <fieldset>
-                <label class="form-label">Contact prference *</label>
-                <div class="checkbox-option">
-                  <input type="checkbox" checked id="contact-email" name="contact-email">
-                  <label for="contact-email">By email</label>
-                </div>
-                <div class="checkbox-option">
-                  <input type="checkbox" checked id="contact-phone" name="contact-phone">
-                  <label for="contact-phonne">By phone</label>
-                </div>
-              </fieldset>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="flex-col">
-              <fieldset>
-                <label class="form-label">Receive weekly newsletter *</label>
-                <div class="checkbox-option">
-                  <input type="radio" id="weekly-news-yes" name="weekly-news" checked>
-                  <label for="weekly-news-yes">Yes</label>
-                </div>
-                <div class="checkbox-option">
-                  <input type="radio" id="weekly-news-no" name="weekly-news">
-                  <label for="weekly-news-no">No</label>
-                </div>
-              </fieldset>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="label-input">
               <label for="note">Extra notes</label>
               <textarea id="note" placeholder="Any notes"></textarea>
             </div>
           </div>
+          <div class="form-row fieldsets">
+            <fieldset>
+              <label class="form-label">Contact prference *</label>
+              <div class="checkbox-option">
+                <input type="checkbox" checked id="contact-email" name="contact-email">
+                <label for="contact-email">By email</label>
+              </div>
+              <div class="checkbox-option">
+                <input type="checkbox" checked id="contact-phone" name="contact-phone">
+                <label for="contact-phonne">By phone</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <label class="form-label">Receive weekly newsletter *</label>
+              <div class="checkbox-option">
+                <input type="radio" id="weekly-news-yes" name="weekly-news" checked>
+                <label for="weekly-news-yes">Yes</label>
+              </div>
+              <div class="checkbox-option">
+                <input type="radio" id="weekly-news-no" name="weekly-news">
+                <label for="weekly-news-no">No</label>
+              </div>
+            </fieldset>
+          </div>
+          
           <div class="form-row">
             <p>(*) required</p>
           </div>
@@ -112,7 +107,6 @@
           </div>
         </form>
       </div>
-    </div>
   </div>
 
   <div class="footer theme2">
@@ -125,7 +119,8 @@
         <li><a class="nav-link" href="../info/contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    <p class="copyright">Copyright © 2023 KBook Store</p>
+<p class="copyright">Copyright © 2023 KBook Store by Khanh Tran</p>
+
   </div>
 </body>
 

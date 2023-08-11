@@ -1,0 +1,161 @@
+{
+  "books":
+  [
+    {
+      "id":1,
+      "title":"Gone Girl",
+      "author":"Gillian Flynn",
+      "published_year":"2012",
+      "description":
+      "Gone Girl is a 2012 crime thriller novel by American writer Gillian Flynn.\n",
+      "price":12.90,
+      "cover": "https://cdn-amz.woka.io/images/I/71FZo7-3BnL.jpg",
+      "photos": ["https://www.samanthakilford.com/wp-content/uploads/2015/03/gone-girl.jpg", "https://i.ebayimg.com/images/g/JNoAAOSwLUBg9Sq5/s-l1200.webp"]
+    },
+    {
+      "id":2,
+      "title":"The Shining",
+      "author":"Stephen King",
+      "published_year":"1977",
+      "description":
+      "The Shining is a 1977 horror novel by American author Stephen King. It is King's third published novel and first hardback bestseller; its success firmly established King as a preeminent author in the horror genre.",
+      "price":14.89,
+      "cover":"https://upload.wikimedia.org/wikipedia/commons/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg",
+      "photos": ["https://i.etsystatic.com/24703877/r/il/c2808b/4356043455/il_fullxfull.4356043455_cw8l.jpg","https://pictures.abebooks.com/inventory/md/md31001119229.jpg"]
+    },
+    {
+      "id":3,
+      "title":"The Girl on the Train",
+      "author":"Paula Hawkins",
+      "published_year":"2015",
+      "description":
+      "The Girl on the Train is a 2015 psychological thriller novel by British author Paula Hawkins that gives narratives from three different women about relationship troubles and, for the main protagonist, alcoholism.",
+      "price":13.21,
+      "cover":"https://www.bookgeeks.in/wp-content/uploads/2017/03/The-Girl-On-The-Train-by-Paula-Hawkins-1200x1859.jpg",
+      "photos": ["https://holrmagazine.com/wp-content/uploads/2021/09/image2-1-scaled.jpg", "https://static01.nyt.com/images/2015/01/05/arts/BOOK/BOOK-superJumbo.jpg"]
+    },
+    {
+      "id":4,
+      "title":"Red Dragon",
+      "author":"Thomas Harris",
+      "published_year":"1981",
+      "description":
+      "Red Dragon is a psychological horror novel by American author Thomas Harris, first published in 1981.\nThe plot follows former FBI profiler Will Graham, who comes out of retirement to find and apprehend an enigmatic serial killer nicknamed 'the Tooth Fairy'.\nIn the backstory of the 1981 novel Red Dragon, FBI profiler Will Graham interviews Lecter about one of his patients who was murdered by a serial killer, before intuiting that Lecter is the culprit; he sees the antique medical diagram 'Wound Man' in Lecter's office, and remembers that the victim suffered the same injuries depicted in the drawing. Realizing that Graham is on to him, Lecter creeps up behind Graham and stabs him with a linoleum knife, nearly disemboweling him.\nGraham survives, but is so traumatized by the incident that he takes early retirement from the FBI. Lecter is charged with a series of nine murders, but is found not guilty by reason of insanity. He is institutionalized in the Baltimore State Hospital for the Criminally Insane under the care of Dr. Frederick Chilton, a pompous, incompetent psychiatrist whom he despises, and who subjects him to a series of petty cruelties.\nSome years later, Graham comes out of retirement and consults Lecter in order to catch another serial killer, Francis Dolarhyde, known by the nickname 'the Tooth Fairy'. Through the classifieds of a tabloid called The National Tattler, Lecter provides Dolarhyde with Graham's home address; Dolarhyde later uses this information to break into Graham's home, stab him in the face, and threaten his family before Graham's wife Molly shoots him dead. At the end of the novel, Lecter sends Graham a letter, saying that he hopes Graham 'won't be very ugly'.",
+      "price":11.23,
+      "cover":"https://m.media-amazon.com/images/I/81dkf1dFePL._AC_UF1000,1000_QL80_.jpg",
+      "photos": ["https://pictures.abebooks.com/inventory/22543238489.jpg", "https://suntup.press/wp-content/uploads/2021/01/RDAGE-1845.jpg"]
+    },
+    {
+      "id":5,
+      "title":"The Silence of the Lambs",
+      "author":"Thomas Harris",
+      "published_year":"1988",
+      "description":
+      "The Silence of the Lambs is a 1988 psychological horror novel by Thomas Harris.\nAs part of the search for a serial murderer, Jame Gumb, known by the nickname 'Buffalo Bill', FBI trainee Clarice Starling is given an assignment. She must visit a man confined to a high-security facility for the criminally insane and interview him.\nThat man, Dr. Hannibal Lecter, is a former psychiatrist with unusual tastes and an intense curiosity about the darker corners of the mind.\nLecter had previously met Gumb, the former lover of his patient (and eventual victim) Benjamin Raspail. He does not reveal this information directly, instead giving Starling vague clues to help her figure it out for herself. In return for Lecter's assistance, the FBI and Chilton arrange for him to be transferred to a federal institution with better living conditions.\nLecter escapes while in transit, however, killing and mutilating his guards and using one of their faces as a mask to fool police and paramedics before killing the latter and escaping. While in hiding, he writes one letter to Starling wishing her well, a second to Barney (his primary orderly at the asylum), thanking him for his courteous treatment, and a third to Chilton, promising gruesome revenge; Chilton disappears soon afterward.\nLecter's intimate understanding of the killer and of Clarice herself form the core of Thomas Harris' The Silence of the Lambs -- an unforgettable classic of suspense fiction.\n",
+      "price":19.98,
+      "cover":"https://upload.wikimedia.org/wikipedia/en/6/62/Silence3.png",
+      "photos": ["https://i0.wp.com/www.raptisrarebooks.com/images/116914/the-silence-of-the-lambs-thomas-harris-first-edition-signed-1988-rare-william-sessions.jpg", "https://www.raptisrarebooks.com/wp-content/uploads/2020/08/rrb-117823.jpg"]
+    },
+    {
+      "id":6,
+      "title":"Zodiac",
+      "author":"Robert Graysmith",
+      "published_year":"1986",
+      "description":
+      "Zodiac is a non-fiction book written by Robert Graysmith about the unsolved serial murders committed by the 'Zodiac Killer' in San Francisco in the late 1960s and early '70s.\nA sexual sadist, the Zodiac killer took pleasure in torture and murder. His first victims were a teenage couple, stalked and shot dead in a lovers’ lane. After another slaying, he sent his first mocking note to authorities, promising he would kill more. The official tally of his victims was six. He claimed thirty-seven dead. The real toll may have reached fifty.\n",
+      "price":13.32,
+      "cover":"https://m.media-amazon.com/images/I/81xni8WlLhL._AC_UF1000,1000_QL80_.jpg",
+      "photos": ["https://i.etsystatic.com/15881251/r/il/dbc313/3015465046/il_fullxfull.3015465046_kjtz.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGKb4VpxsLakIenAfku6gByOxapr_h24EfPnMU4eflin_hA5dSVenbN0vii_59CP82k0U&usqp=CAU"]
+    },
+    {
+      "id":7,
+      "title":"It",
+      "author":"Stephen King",
+      "published_year":"1986",
+      "description":
+      "",
+      "price":11.32,
+      "cover":"https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/04/It-Clown.jpg",
+      "photos": ["https://stephenkingbooks.co.uk/wp-content/uploads/2018/06/Regular-PB-no-spine-web.png", "https://lzd-img-global.slatic.net/g/p/adbe5cce4f70049bbcb0518e22f5ea8b.png_720x720q80.png"]
+    },
+    {
+      "id":8,
+      "title":"The Ousider",
+      "author":"Stephen King",
+      "published_year":"2018",
+      "description":
+      "The Outsider (2018) is a horror novel by the American author Stephen King.\nAn eleven-year-old boy’s violated corpse is discovered in a town park. Eyewitnesses and fingerprints point unmistakably to one of Flint City’s most popular citizens—Terry Maitland, Little League coach, English teacher, husband, and father of two girls. Detective Ralph Anderson, whose son Maitland once coached, orders a quick and very public arrest. Maitland has an alibi, but Anderson and the district attorney soon have DNA evidence to go with the fingerprints and witnesses. Their case seems ironclad.\nAs the investigation expands and horrifying details begin to emerge, King’s story kicks into high gear, generating strong tension and almost unbearable suspense. Terry Maitland seems like a nice guy, but is he wearing another face? When the answer comes, it will shock you as only Stephen King can.\n",
+      "price":12.41,
+      "cover":"https://static.wikia.nocookie.net/stephenking/images/0/01/The_Outsider_cover.jpg",
+      "photos": ["https://cdn11.bigcommerce.com/s-eohzfjch7f/images/stencil/1280x1280/products/2935/12560/IMG_2134_edited__60461.1653042757.jpg?c=1", "https://m.media-amazon.com/images/I/81A-eN1Z4nL._AC_UF1000,1000_QL80_.jpg"]
+    },
+    {
+      "id":9,
+      "title":"Frankenstein",
+      "author":"Mary Shelley",
+      "published_year":"1818",
+      "description":
+      "On a stormy summer night in 1816, eighteen-year-old Mary Shelley sat down to write a ghost story. What poured from her pen that fateful night would change the world, revolutionizing our understanding of artificial life, bewitching generations of readers, and pioneering science fiction as we now know it.\nFrankenstein tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment.\nDr. Victor Frankenstein builds a creature out of scavenged body parts, recoils from his creation, then sees all that he loves destroyed by his spurned progeny. In this landmark novel, Shelley fused a primordial parable with the upheavals and anxieties of the Industrial Revolution, and in doing so, laid the foundation for the themes and constructs of science fiction.\nThe weighty questions she poses in Frankenstein continue to animate the genre to this very day. Why do we harbor such fear of the other? How responsible are we for our creations, and what does it mean when they develop agency of their own? Where’s the line between what science can do, and what it should do? Frankenstein strikes at the very heart of what it means to be human. It also rewards repeat readings—so much so that, even two centuries later, we’re still peering at it through new lenses, as queer, transhumanist, and feminist readings locate new depths within the familiar text. Plenty of imitators have tried to match the heights of Frankenstein, but none have come close. We owe everything to Shelley’s ur-textual story of modernity, morality, and progress’ great and terrible cost.\n",
+      "price":11.89,
+      "cover":"https://m.media-amazon.com/images/I/81z7E0uWdtL._AC_UF1000,1000_QL80_.jpg",
+      "photos": ["https://m.media-amazon.com/images/I/71hCBEMpQ0L._AC_UF1000,1000_QL80_.jpg", "https://prodimage.images-bn.com/pimages/9781435159624_p0_v1_s1200x630.jpg"]
+    },
+    {
+      "id":10,
+      "title":"Kindred",
+      "author":"Octavia Butler",
+      "published_year":"1979",
+      "description":
+      "Octavia Butler’s contributions to science fiction and Afrofuturism are legendary, meaning that selecting just one of her works for this list was a tall order. But Kindred, perhaps her best-known novel, stood out above the rest as a master class in the ability of science fiction to speak to the contemporary moment. \nThis is the story of Dana, a Black woman in Los Angeles circa 1976, who finds herself violently transported back in time to the antebellum plantation where her ancestors were enslaved. Each time she pinballs through past and present, Dana’s stays at the plantation become longer and more dangerous, forcing her to confront the gruesome legacies of slavery, misogynoir, and white supremacy.\nAs Harlan Ellison once said, “Octavia Butler is a writer who will be with us for a long, long time, and Kindred is that rare magical artifact… the novel one returns to, again and again.” Almost like time travel, we keep coming back to it.\n",
+      "price":14.59,
+      "cover":"https://upload.wikimedia.org/wikipedia/en/5/57/OctaviaEButler_Kindred.jpg",
+      "photos": ["https://i0.wp.com/www.raptisrarebooks.com/images/136552/kindred-octavia-butler-first-edition.jpg?fit=1000%2C800&ssl=1", "https://pictures.abebooks.com/inventory/md/md31552875147.jpg"
+      ]
+    },
+    {
+      "id":11,
+      "title":"Journey to the Center of the Earth",
+      "author":"Jules Verne",
+      "published_year":"1864",
+      "description":
+      "Verne’s classic tale Journey to the Center of the Earth  is a personal favourite of this writer; one of the best sci-fi books to elicit repeated reactions of excitement and wonder from the reader.\nThe story follows a German professor and his nephew, who, after translating an old Icelandic text, set out on an expedition to find a crater in Iceland that might lead to the centre of the planet.\n",
+      "price":18.76,
+      "cover":"https://m.media-amazon.com/images/I/911A8d8aCYL._AC_UF1000,1000_QL80_.jpg",
+      "photos": ["https://i0.wp.com/www.raptisrarebooks.com/images/103086/a-journey-to-the-centre-of-the-earth-jules-verne-first-edition.jpg?fit=1000%2C800&ssl=1", "https://www.hcbooksonline.com/wp-content/uploads/2018/03/26091.jpg"]
+    },
+    {
+      "id":12,
+      "title":"The Stand",
+      "author":"Stephen King",
+      "published_year":"1978",
+      "description":
+      "The Stand is a post-apocalyptic dark fantasy novel written by American author Stephen King\nHorror, fantasy, and science fiction converge in The Stand, a master storyteller’s doorstopper about the eternal struggle between good and evil.\nAfter a bioengineered influenza virus escapes from a government laboratory, mankind succumbs to the deadly pandemic in just weeks, leaving survivors scattered across the barren United States.\nTwo communities coalesce around very different leaders: Mother Abagail, a benevolent holy woman seeking utopia, and Randall Flagg, the human personification of violence and chaos. As the communities fight to wipe one another out, King weaves an epic tale about theology, morality, and human nature. In the wake of our own pandemic, The Stand has only grown in resonance and prescience.\n",
+      "price":15.67,
+      "cover":"https://upload.wikimedia.org/wikipedia/commons/5/52/The_Stand_%281978%29_front_cover%2C_first_edition.png",
+      "photos": ["https://www.raptisrarebooks.com/wp-content/uploads/2022/02/rrb-132641.jpg", "https://chamblinbookmine.cdn.bibliopolis.com/pictures/71674.jpg?v=1608429517"]
+    },
+    {
+      "id":13,
+      "title":"A Game of Thrones",
+      "author":"George R. R. Martin",
+      "published_year":"1996",
+      "description":
+      "A Game of Thrones is the first of seven planned novels in A Song of Ice and Fire, an epic fantasy series by American author George R. R. Martin.\n",
+      "price":18.56,
+      "cover":"https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg",
+      "photos": ["https://www.foliosociety.com/media/catalog/product/g/o/got_s_11.jpg?quality=80&fit=bounds&height=&width=&canvas=:", "https://cdn-amz.woka.io/images/I/91HSa7sG8tL.jpg"]
+    },
+    {
+      "id":14,
+      "title":"The Fifth Season",
+      "author":"N. K. Jemisin",
+      "published_year":"2015",
+      "description":
+      "The Fifth Season is a 2015 science fantasy novel by N. K. Jemisin. It was awarded the Hugo Award for Best Novel in 2016.\n",
+      "price":14.21,
+      "cover":"https://upload.wikimedia.org/wikipedia/en/0/01/The_Fifth_Season_%28novel%29.jpg",
+      "photos": ["https://1.bp.blogspot.com/-NBepDHTawiQ/X37vXyKtUUI/AAAAAAAAIGE/oFNRUwZPYeQIO-qUODnnpuejzJD4vhmNACPcBGAsYHg/s16000/Lumii_20201008_125119559.jpg", "https://m.media-amazon.com/images/I/91JSBdkdw+L._AC_UF1000,1000_QL80_.jpg"]
+    }
+  ]
+}
+

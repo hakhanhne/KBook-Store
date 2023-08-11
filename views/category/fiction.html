@@ -15,7 +15,7 @@
   </style>
 </head>
 
-<body>
+<body class="colored-background">
   <div class="header theme1">
     <div class="left flex-row">
       <img class="app-logo" src="../../assets/favicon/logo.png" alt="App logo">
@@ -50,8 +50,11 @@
                 <img  alt="Book cover" src="https://m.media-amazon.com/images/I/81z7E0uWdtL._AC_UF1000,1000_QL80_.jpg">
               </div>
               <div class="card-info">
-                <div class="title">Frankenstein</div>
-                <div class="author">Mary Shelley, 1818</div>
+                <div class="left">
+                  <div class="title">Frankenstein</div>
+                  <div class="author">Mary Shelley, 1818</div>
+                </div>
+                <div class="right price">$11.89</div>
               </div>
             </div>
           </div>
@@ -59,11 +62,14 @@
           <div class="category-item">
             <div class="bookcard" id="10" onclick="window.location.href=`../book-detail/book${this.id}.html`">
               <div class="card-cover">
-                <img alt="Book cover" src="https://1.bp.blogspot.com/-lAV-ZpWEO-U/YBZBB7yyJxI/AAAAAAAADnw/MBPlt49oZBEwMbZhhHYbf7HZ3yJKfiFjQCNcBGAsYHQ/s0/Schwinger.jpg">
+                <img alt="Book cover" src="https://upload.wikimedia.org/wikipedia/en/5/57/OctaviaEButler_Kindred.jpg">
               </div>
               <div class="card-info">
-                <div class="title">Kindred</div>
-                <div class="author">Octavia Butler, 1979</div>
+                <div class="left">
+                  <div class="title">Kindred</div>
+                  <div class="author">Octavia Butler, 1979</div>
+                </div>
+                <div class="right price">$14.59</div>
               </div>
             </div>
           </div>
@@ -74,8 +80,11 @@
                 <img alt="Book cover" src="https://m.media-amazon.com/images/I/911A8d8aCYL._AC_UF1000,1000_QL80_.jpg">
               </div>
               <div class="card-info">
-                <div class="title">Journey to the Center of the Earth</div>
-                <div class="author">Jules Verne, 1864</div>
+                <div class="left">
+                  <div class="title">Journey to the Center of the Earth</div>
+                  <div class="author">Jules Verne, 1864</div>
+                </div>
+                <div class="right price">$18.76</div>
               </div>
             </div>
           </div>
@@ -93,8 +102,11 @@
                 <img  alt="Book cover" src="https://upload.wikimedia.org/wikipedia/commons/5/52/The_Stand_%281978%29_front_cover%2C_first_edition.png">
               </div>
               <div class="card-info">
-                <div class="title">The Stand</div>
-                <div class="author">Stephen King, 1978</div>
+                <div class="left">
+                  <div class="title">The Stand</div>
+                  <div class="author">Stephen King, 1978</div>
+                </div>
+                <div class="right price">$15.67</div>
               </div>
             </div>
           </div>
@@ -105,8 +117,11 @@
                 <img alt="Book cover" src="https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg">
               </div>
               <div class="card-info">
-                <div class="title">A Game of Thrones</div>
-                <div class="author">George R. R. Martin, 1996</div>
+                <div class="left">
+                  <div class="title">A Game of Thrones</div>
+                  <div class="author">George R. R. Martin, 1996</div>
+                </div>
+                <div class="right price">$18.56/div>
               </div>
             </div>
           </div>
@@ -117,8 +132,11 @@
                 <img alt="Book cover" src="https://upload.wikimedia.org/wikipedia/en/0/01/The_Fifth_Season_%28novel%29.jpg">
               </div>
               <div class="card-info">
-                <div class="title">The Fifth Season</div>
-                <div class="author">N. K. Jemisin, 2015</div>
+                <div class="left">
+                  <div class="title">The Fifth Season</div>
+                  <div class="author">N. K. Jemisin, 2015</div>
+                </div>
+                <div class="right price">$14.21</div>
               </div>
             </div>
           </div>
@@ -137,8 +155,16 @@
         <li><a class="nav-link" href="../info/contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    <p class="copyright">Copyright © 2023 KBook Store</p>
+    <p class="copyright">Copyright © 2023 KBook Store by Khanh Tran</p>
   </div>
+
+  <script  type="text/javascript">
+    function book_clicked(id) {
+      localStorage.setItem("bookid", id)
+      console.log(id)
+      window.location.href=`./views/book-detail/book.html`;
+    }
+  </script>
 </body>
 
 </html>
