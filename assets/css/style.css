@@ -449,12 +449,17 @@ input:disabled + label {
 
 @media (max-width: 500px){
   .relevant-content {flex-direction: column}
+  .img-gallery .right {width: 30%;}
 }
 
 @media (max-width: 400px){
   .main {padding: 30px 20px 100px 20px;}
   .book-detail-page-wrapper > section {padding: 20px 10px;}
   .book-detail{gap: 30px; padding: 10px;}
+  .book-detail .img-gallery {height: 220px;}
+  .img-gallery .right {width: 65%;}
+  .img-gallery .right {width: 35%;}
+
   .left.flex-row{gap: 3px;}
   .welcome-text {font-size: 30px;}
   .thumbnail {height: 300px;}
@@ -472,6 +477,7 @@ input:disabled + label {
 }
 
 @media (max-width: 300px){
+  .book-detail .img-gallery {height: 200px;}
   h2.big-font {font-size: 19px;}
   h3.mid-font {font-size: 17px;}
   .app-name{font-size: 18px;}
