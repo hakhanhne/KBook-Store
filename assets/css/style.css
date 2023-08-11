@@ -335,12 +335,16 @@ input:disabled + label {
   color: #ccc;
 }
 
+.relevant-item {
+  display: block;
+}
+
 
 @media (max-width: 992px){
   /* book detail */
   .book-detail-page-wrapper {flex-direction: column;}
-  .relevant-content {flex-direction: row; gap: 30px;}
   section.book-detail-content {width: unset;}
+  .relevant-content {flex-direction: row; gap: 30px;}
 
   /* contact page */
   #contact-img {width: 300px; height: 300px}
@@ -355,6 +359,15 @@ input:disabled + label {
 
   .video {flex-direction: column; gap: 20px;}
   .video > * {width: 100%;}
+
+  .relevant-content .bookcard {
+    width: 200px;
+    height: 270px;
+  }
+  .relevant-content .card-info .title {font-size: 14px;}
+  .relevant-content .card-info .author {font-size: 12px;}
+  .relevant-content .card-info .price {font-size: 16px;}
+
 
   /* contact page */
   .form-container {width: 70%;}
@@ -387,7 +400,15 @@ input:disabled + label {
   .bookcard {width: 220px;height: 300px;}
   .card-info .title {font-size: 15px;}
   .card-info .author {font-size: 12px;}
-  .card-info .price {font-size: 17px;}
+  .card-info .price {font-size: 15px;}
+
+  .relevant-content .bookcard {
+    width: 190px;
+    height: 250px;
+  }
+  .relevant-content .card-info .title {font-size: 14px;}
+  .relevant-content .card-info .author {font-size: 11px;}
+  .relevant-content .card-info .price {font-size: 15px;}
 
   /* .header nav menu responsive: horizontal -> vertical menu */
   .hamburger {display: block;} /* show hamburger */
@@ -426,7 +447,14 @@ input:disabled + label {
   .form-container {padding: 20px 30px;}
 }
 
+@media (max-width: 500px){
+  .relevant-content {flex-direction: column}
+}
+
 @media (max-width: 400px){
+  .main {padding: 30px 20px 100px 20px;}
+  .book-detail-page-wrapper > section {padding: 20px 10px;}
+  .book-detail{gap: 30px; padding: 10px;}
   .left.flex-row{gap: 3px;}
   .welcome-text {font-size: 30px;}
   .thumbnail {height: 300px;}
@@ -444,7 +472,6 @@ input:disabled + label {
 }
 
 @media (max-width: 300px){
-  .main {padding: 30px 20px 100px 20px;}
   h2.big-font {font-size: 19px;}
   h3.mid-font {font-size: 17px;}
   .app-name{font-size: 18px;}
