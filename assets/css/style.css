@@ -139,6 +139,16 @@ section {padding: 30px 0;}
 .welcome-text {font-size: 50px; font-family: 'Garamond';}
 .thumbnail .text p {font-size: 20px; font-family: 'Petrona'; font-weight: 500; font-style: italic;}
 
+.thumbnail.thriller-page .background {
+  background-image: url("../../assets/picture/thriller-background.avif");
+}
+
+.thumbnail.fiction-page .background {
+  background-image: url("../../assets/picture/fiction-background.jpg");
+}
+
+.subcategory-list a {font-size: 19px; padding: 0px 10px; color: inherit; font-style: normal; text-decoration: none;}
+.subcategory-list a:hover {text-decoration:underline;}
 .contact-btn {
   border: #DDC6B6 solid 1.5px;
   background-color: transparent;
@@ -355,7 +365,7 @@ input:disabled + label {
 @media (max-width: 768px){
   .book-detail .top {flex-direction: column; gap: 25px;}
   .welcome-text {font-size: 40px;}
-  .thumbnail .text p, .contact-btn {font-size: 18px;}
+  .thumbnail .text p, .contact-btn, .subcategory-list a {font-size: 18px;}
 
   .video {flex-direction: column; gap: 20px;}
   .video > * {width: 100%;}
@@ -385,30 +395,6 @@ input:disabled + label {
   }
   .label-input label {width: 100%;}
   .label-input input, .label-input select, .label-input textarea {width: 100%;}
-
-}
-
-@media (max-width: 600px){
-  * {font-size: 13px;}
-  h2.big-font {font-size: 20px;}
-  h3.mid-font {font-size: 18px;}
-  .app-name {font-size: 22px;}
-  .welcome-text {font-size: 36px;}
-  .thumbnail .text p, .contact-btn {font-size: 16px;}
-  .video p.heading {font-size: 17px;}
-
-  .bookcard {width: 220px;height: 300px;}
-  .card-info .title {font-size: 15px;}
-  .card-info .author {font-size: 12px;}
-  .card-info .price {font-size: 15px;}
-
-  .relevant-content .bookcard {
-    width: 190px;
-    height: 250px;
-  }
-  .relevant-content .card-info .title {font-size: 14px;}
-  .relevant-content .card-info .author {font-size: 11px;}
-  .relevant-content .card-info .price {font-size: 15px;}
 
   /* .header nav menu responsive: horizontal -> vertical menu */
   .hamburger {display: block;} /* show hamburger */
@@ -441,6 +427,30 @@ input:disabled + label {
   .category-header > * {display: block;}
   .category-header {display: flex; flex-direction: column;}
 
+}
+
+@media (max-width: 600px){
+  * {font-size: 13px;}
+  h2.big-font {font-size: 20px;}
+  h3.mid-font {font-size: 18px;}
+  .app-name {font-size: 22px;}
+  .welcome-text {font-size: 36px;}
+  .thumbnail .text p, .contact-btn, .subcategory-list a {font-size: 16px;}
+  .video p.heading {font-size: 17px;}
+
+  .bookcard {width: 220px;height: 300px;}
+  .card-info .title {font-size: 15px;}
+  .card-info .author {font-size: 12px;}
+  .card-info .price {font-size: 15px;}
+
+  .relevant-content .bookcard {
+    width: 190px;
+    height: 250px;
+  }
+  .relevant-content .card-info .title {font-size: 14px;}
+  .relevant-content .card-info .author {font-size: 11px;}
+  .relevant-content .card-info .price {font-size: 15px;}
+
   /* contact page */
   form#contact-form * {font-size: 14px;}
   .form-container {width: 80%;}
@@ -463,7 +473,7 @@ input:disabled + label {
   .left.flex-row{gap: 3px;}
   .welcome-text {font-size: 30px;}
   .thumbnail {height: 300px;}
-  .thumbnail .text p, .contact-btn {font-size: 15px;}
+  .thumbnail .text p, .contact-btn, .subcategory-list a {font-size: 15px;}
   .contact-btn {padding: 7px 14px;}
   .app-name{font-size: 20px;}
   .header {padding-left: 2px;}
@@ -482,7 +492,7 @@ input:disabled + label {
   h3.mid-font {font-size: 17px;}
   .app-name{font-size: 18px;}
   .welcome-text {font-size: 20px;}
-  .thumbnail .text p, .contact-btn {font-size: 14px;}
+  .thumbnail .text p, .contact-btn, .subcategory-list a {font-size: 14px;}
   .category-item {margin: 16px 10px;}
   .bookcard {width: 210px;height: 280px;}
 }
@@ -499,26 +509,6 @@ input:disabled + label {
 }
 
 
-.btn {
-  text-transform: uppercase;
-  font-weight: 500;
-  background-color: white;
-  font-size: 16px;
-  width: 140px;
-  height: 40px;
-  border-radius: 10px;
-}
-
-
-.meal-info h4 {
-  font-size: 20px;
-  min-width: 150px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
 
 
 
