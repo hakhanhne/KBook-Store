@@ -335,19 +335,20 @@ form#contact-form * {font-size: 15px;}
 section.book-detail-content {width: 70%;}
 .relevant-content {display: flex; flex-direction: column; gap: 30px;}
 
-
-button {cursor: pointer;}
-
-button:disabled,
-input:disabled,
-input:disabled + label {
-  cursor: not-allowed;
-  color: #ccc;
-}
-
 .relevant-item {
   display: block;
 }
+
+/* About Us */
+.people-img {
+  max-width: 200px;
+  min-height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+
+.creator-advisors {display: flex; gap: 100px;}
+.advisors {display: flex; gap: 20px;}
 
 
 @media (max-width: 992px){
@@ -427,6 +428,8 @@ input:disabled + label {
   .category-header > * {display: block;}
   .category-header {display: flex; flex-direction: column;}
 
+  /* About Us */
+  .creator-advisors {flex-direction: column; gap: 20px;}
 }
 
 @media (max-width: 600px){
@@ -460,6 +463,8 @@ input:disabled + label {
 @media (max-width: 500px){
   .relevant-content {flex-direction: column}
   .img-gallery .right {width: 30%;}
+  .advisors {flex-direction: column; gap: 20px;}
+
 }
 
 @media (max-width: 400px){
